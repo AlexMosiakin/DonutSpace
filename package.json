@@ -1,5 +1,5 @@
 {
-  "name": "capture",
+  "name": "Donut",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://alexmosiakin.github.io/DonutSpace/",
@@ -20,6 +20,7 @@
     "css-loader": "^5.1.0",
     "dat.gui": "^0.7.7",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
     "html-loader": "^2.1.1",
     "html-webpack-plugin": "^5.2.0",
     "mini-css-extract-plugin": "^1.3.9",
