@@ -1,14 +1,14 @@
 import './style.css'
-import * as THREE from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import * as dat from 'dat.gui'
-import { TorusBufferGeometry } from 'three'
+import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js'
+import { OrbitControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js'
+//import * as dat from 'dat.gui'
+import { TorusBufferGeometry } from 'https://unpkg.com/three@0.127.0/build/three.module.js'
 
 /**
  * Textures
  */
 const textureLoader = new THREE.TextureLoader()
-const matcapTexture = textureLoader.load('/textures/matcaps/8.png')
+const matcapTexture = textureLoader.load('8.png')
 
 // Scene
 const scene = new THREE.Scene()
@@ -89,7 +89,7 @@ for (let i = 0; i < 100; i++) {
  * Base
  */
 // Debug
-const gui = new dat.GUI()
+//const gui = new dat.GUI()
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
